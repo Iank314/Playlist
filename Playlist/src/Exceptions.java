@@ -1,10 +1,4 @@
-/*
- * Ian Kaufman
- * 115639955
- * ian.kaufman@stonybrook.edu
- * Homework 1
- * CSE214.R30
- */
+
 
 /**
  * Exceptions class to handle custom exceptions.
