@@ -1,0 +1,27 @@
+node_modules
+
+# --- Credentials and local tool state ---------------------------------
+# This repository is rooted at the home directory, so an unguarded
+# `git add -A` here would stage SSH keys and cloud credentials and push
+# them to the remote. None of these have ever been committed; this keeps
+# it that way.
+.ssh/
+.aws/
+.azure/
+.docker/
+.config/
+.gnupg/
+.claude.json
+.claude.json.tmp.*
+.claude/
+.codex/
+.copilot/
+.netrc
+_netrc
+*.pem
+*.key
+*.ppk
+id_rsa
+id_ed25519
+NTUSER.DAT*
+ntuser.dat*
